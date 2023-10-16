@@ -1,11 +1,12 @@
-napis = 'Akademia108';
+let napis = 'Akademia108';
 
-function reverseString(napis) {
-  
-  return napis.reverse();
+function reverseString(string) {
+    let rev = string.split('').reverse().join('');
+    
+    return rev
 };
 
-// console.log(reverseString('Testowy napis 200 znaków'));
+console.log(reverseString('Testowy napis 200 znaków'));
 console.log(reverseString(napis));
 
 /* Napisz funkcję, która pobiera jako parametr stringa (czyli napis) i zwraca ten sam napis tylko napisany wspak.
